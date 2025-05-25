@@ -1,0 +1,6 @@
+VCT插件所有指令如下             
+#vct-commands                返回所有指令          无参数
+#vct-regions                 返回所有地区          无参数
+#vct-news [num]              返回比赛新闻          可选参数num（新闻条数）       
+#vct-match <q> [mEvent]      返回比赛相关信息		  必要参数q（upcoming未来比赛，live_score当前比赛，results过去比赛结果） 可选参数mEvent（赛事名）
+#vct-rankings <region>       返回队伍排名          必要参数region（地区简写，可从#vct-regions中获得）
